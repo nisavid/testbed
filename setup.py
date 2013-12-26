@@ -13,7 +13,7 @@ from setuptools import find_packages as _find_packages, setup as _setup
 
 NAME = 'Testbed'
 
-VERSION = '0.13.0'
+VERSION = '0.13.1'
 
 SITE_URI = ''
 
@@ -40,9 +40,9 @@ TROVE_CLASSIFIERS = \
 
 SETUP_DEPS = ()
 
-INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >=0.13.0.dev',
-                'nisavid-collections', 'nisavid-datetime',
-                'nisavid-http-common', 'nisavid-logging', 'pytz', 'requests')
+INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >=0.13.1.dev', 'pytz',
+                'requests', 'spruce-collections', 'spruce-datetime',
+                'spruce-http-common', 'spruce-logging')
 
 EXTRAS_DEPS = {}
 
