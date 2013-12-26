@@ -7,7 +7,7 @@ __docformat__ = "restructuredtext"
 
 import unittest as _unittest
 
-import nisavid.logging as _logging
+import spruce.logging as _logging
 import testbed.testing as _testbedtest
 
 

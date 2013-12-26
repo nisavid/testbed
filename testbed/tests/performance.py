@@ -9,8 +9,8 @@ from time import time as _time
 import threading as _threading
 import unittest as _unittest
 
-import nisavid.logging as _logging
 import bedframe.webtypes as _webtypes
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 

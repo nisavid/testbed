@@ -9,7 +9,7 @@ import abc as _abc
 
 import bedframe.webtypes as _webtypes
 import napper as _napper
-from nisavid.pprint import indented as _indented
+from spruce.pprint import indented as _indented
 
 import testbed.testing as _testbedtest
 

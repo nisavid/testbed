@@ -9,8 +9,8 @@ import json as _json
 import unittest as _unittest
 from urllib import quote as _percent_encode
 
-import nisavid.logging as _logging
 import napper as _napper
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 

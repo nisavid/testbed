@@ -10,12 +10,12 @@ import re as _re
 import sys as _sys
 import traceback as _traceback
 
-from nisavid.collections import odict as _odict
-import nisavid.logging as _logging
 import bedframe as _bedframe
 import bedframe.auth.ldap as _bedframe_ldap_auth
 import bedframe.testing as _bedtest
-import nisavid.ldap.testing as _ldaptest
+from spruce.collections import odict as _odict
+import spruce.ldap.testing as _ldaptest
+import spruce.logging as _logging
 
 import testbed as _testbed
 
