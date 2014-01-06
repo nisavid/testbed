@@ -2,13 +2,13 @@
 
 """:mod:`Exception-triggering <testbed.resources._exc>` tests."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import unittest as _unittest
 
-import nisavid.logging as _logging
-import nisavid.http.status as _http_status
+import spruce.http.status as _http_status
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 

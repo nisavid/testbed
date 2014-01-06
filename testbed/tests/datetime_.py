@@ -2,7 +2,7 @@
 
 """:mod:`Date and time <testbed.resources._datetime>` tests."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import csv as _csv
@@ -11,12 +11,12 @@ import re as _re
 from StringIO import StringIO as _StringIO
 import unittest as _unittest
 
-import nisavid.datetime as _c_datetime
-import nisavid.logging as _logging
 import bedframe.webtypes as _webtypes
-import nisavid.http.status as _http_status
 import napper as _napper
 import pytz as _tz
+import spruce.datetime as _c_datetime
+import spruce.http.status as _http_status
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 

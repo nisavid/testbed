@@ -1,15 +1,15 @@
 """Date and time resources."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import csv as _csv
 from StringIO import StringIO as _StringIO
 from textwrap import dedent as _dedent
 
-import nisavid.datetime as _datetime
 import bedframe as _bedframe
 import bedframe.webtypes as _webtypes
+import spruce.datetime as _datetime
 
 
 class DatetimeDifference(_bedframe.WebResource):

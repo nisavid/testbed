@@ -2,15 +2,15 @@
 
 """Performance tests."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 from time import time as _time
 import threading as _threading
 import unittest as _unittest
 
-import nisavid.logging as _logging
 import bedframe.webtypes as _webtypes
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 

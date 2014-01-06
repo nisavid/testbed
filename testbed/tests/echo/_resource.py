@@ -2,7 +2,7 @@
 
 """:mod:`Echo <testbed.resources._echo>` tests."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import abc as _abc
@@ -10,7 +10,7 @@ import json as _json
 import unittest as _unittest
 from urllib import quote as _percent_encode
 
-import nisavid.logging as _logging
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 from . import _core as _echo_tests_core

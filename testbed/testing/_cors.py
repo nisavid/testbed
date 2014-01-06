@@ -1,11 +1,11 @@
 """:mod:`Cross-origin resource sharing <testbed._cors>` testing."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import abc as _abc
 
-from nisavid.collections import frozenuset as _frozenuset
+from spruce.collections import frozenuset as _frozenuset
 
 import testbed as _testbed
 from . import _core as _testbedtest_core

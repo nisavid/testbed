@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __credits__ = ["Ivan D Vasin"]
 __maintainer__ = "Ivan D Vasin"
 __email__ = "nisavid@gmail.com"
@@ -13,16 +13,25 @@ from setuptools import find_packages as _find_packages, setup as _setup
 
 NAME = 'Testbed'
 
-VERSION = '0.13.0'
+VERSION = '0.13.1'
 
 SITE_URI = ''
 
-DESCRIPTION = 'A web service that tests Bedframe.'
+DESCRIPTION = 'A web service that tests Bedframe'
 
-LONG_DESCRIPTION = DESCRIPTION + '''
-'''
+README_FILE = 'README.rst'
+with open(README_FILE, 'r') as _file:
+    README = _file.read()
 
-LICENSE = 'LGPLv3'
+CHANGES_FILE = 'CHANGES.rst'
+with open(CHANGES_FILE, 'r') as _file:
+    CHANGES = _file.read()
+
+LICENSE_FILE = 'LICENSE'
+with open(LICENSE_FILE, 'r') as _file:
+    LICENSE = _file.read()
+
+LONG_DESCRIPTION = '\n\n'.join((README, CHANGES))
 
 TROVE_CLASSIFIERS = \
     ('Development Status :: 5 - Production/Stable',
@@ -40,9 +49,9 @@ TROVE_CLASSIFIERS = \
 
 SETUP_DEPS = ()
 
-INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >=0.13.0.dev',
-                'nisavid-collections', 'nisavid-datetime',
-                'nisavid-http-common', 'nisavid-logging', 'pytz', 'requests')
+INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >=0.13.1.dev', 'pytz',
+                'requests', 'spruce-collections', 'spruce-datetime',
+                'spruce-http-common', 'spruce-logging')
 
 EXTRAS_DEPS = {}
 

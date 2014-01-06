@@ -2,15 +2,15 @@
 
 """:mod:`Redirection <testbed.resources._redirect>` tests."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import json as _json
 import unittest as _unittest
 from urllib import quote as _percent_encode
 
-import nisavid.logging as _logging
 import napper as _napper
+import spruce.logging as _logging
 
 import testbed.testing as _testbedtest
 
