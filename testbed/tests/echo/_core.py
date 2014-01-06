@@ -2,7 +2,7 @@
 
 """:mod:`Echo <testbed.resources._echo>` tests core."""
 
-__copyright__ = "Copyright (C) 2013 Ivan D Vasin and Cogo Labs"
+__copyright__ = "Copyright (C) 2014 Ivan D Vasin"
 __docformat__ = "restructuredtext"
 
 import abc as _abc
