@@ -13,9 +13,11 @@ from setuptools import find_packages as _find_packages, setup as _setup
 
 NAME = 'Testbed'
 
-VERSION = '0.13.3'
+VERSION = '0.13.4'
 
 SITE_URI = ''
+
+DOWNLOAD_URI = 'https://github.com/nisavid/testbed'
 
 DESCRIPTION = 'A web service that tests Bedframe'
 
@@ -49,8 +51,8 @@ TROVE_CLASSIFIERS = \
 
 SETUP_DEPS = ()
 
-INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >=0.13.3.dev', 'pytz',
-                'requests', 'spruce-collections', 'spruce-datetime',
+INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >={}.dev'.format(VERSION),
+                'pytz', 'requests', 'spruce-collections', 'spruce-datetime',
                 'spruce-http-common', 'spruce-logging')
 
 EXTRAS_DEPS = {}
@@ -90,6 +92,7 @@ if __name__ == '__main__':
     _setup(name=NAME,
            version=VERSION,
            url=SITE_URI,
+           download_url=DOWNLOAD_URI,
            description=DESCRIPTION,
            long_description=LONG_DESCRIPTION,
            author=', '.join(__credits__),
