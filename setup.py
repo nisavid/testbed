@@ -49,8 +49,8 @@ TROVE_CLASSIFIERS = \
 
 SETUP_DEPS = ()
 
-INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >=0.13.3.dev', 'pytz',
-                'requests', 'spruce-collections', 'spruce-datetime',
+INSTALL_DEPS = ('bedframe [test_ldap,tornado_wsgi] >={}.dev'.format(VERSION),
+                'pytz', 'requests', 'spruce-collections', 'spruce-datetime',
                 'spruce-http-common', 'spruce-logging')
 
 EXTRAS_DEPS = {}
